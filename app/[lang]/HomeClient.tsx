@@ -23,26 +23,28 @@ export default function HomeClient({ dictionary, lang }: { dictionary: any, lang
   );
 }
 
+import Link from "next/link"; // Add import at the top
+
 function Header({ dict, lang }: { dict: any, lang: Locale }) {
   return (
     <header className="header">
       <div className="header-content">
-        <a href={`/${lang}`} className="logo">
+        <Link href={`/${lang}`} className="logo">
           <Image src="/logo.png" alt="Sweet Spot" width={55} height={55} className="logo-img" />
-        </a>
+        </Link>
         <nav className="nav-links">
-          <a href="#mission">{dict.nav.mission}</a>
-          <a href="#business">{dict.nav.business}</a>
-          <a href="#industries">{dict.nav.industries}</a>
-          <a href="#advantages">{dict.nav.advantages}</a>
-          <a href="#footer">{dict.nav.contact}</a>
+          <Link href="#mission">{dict.nav.mission}</Link>
+          <Link href="#business">{dict.nav.business}</Link>
+          <Link href="#industries">{dict.nav.industries}</Link>
+          <Link href="#advantages">{dict.nav.advantages}</Link>
+          <Link href="#footer">{dict.nav.contact}</Link>
         </nav>
         <div className="lang-switcher">
-          <a href="/ja" className={lang === 'ja' ? 'active' : ''}>JP</a>
+          <Link href="/ja" className={lang === 'ja' ? 'active' : ''}>JP</Link>
           <span className="divider">|</span>
-          <a href="/en" className={lang === 'en' ? 'active' : ''}>EN</a>
+          <Link href="/en" className={lang === 'en' ? 'active' : ''}>EN</Link>
           <span className="divider">|</span>
-          <a href="/zh" className={lang === 'zh' ? 'active' : ''}>CN</a>
+          <Link href="/zh" className={lang === 'zh' ? 'active' : ''}>CN</Link>
         </div>
       </div>
       <style jsx>{`
@@ -60,7 +62,7 @@ function Header({ dict, lang }: { dict: any, lang: Locale }) {
         .header-content {
           max-width: var(--container-width);
           margin: 0 auto;
-          padding: 0 1.5rem;
+          padding: 0 3.5rem; /* Aligns with Hero/Mission text content offset */
           display: grid;
           grid-template-columns: auto 1fr auto;
           align-items: center;
@@ -74,12 +76,12 @@ function Header({ dict, lang }: { dict: any, lang: Locale }) {
             justify-content: center;
             gap: 2rem;
         }
-        .nav-links a {
+        .nav-links :global(a) {
             font-weight: 500;
             color: var(--heading-color);
             transition: color 0.2s;
         }
-        .nav-links a:hover {
+        .nav-links :global(a:hover) {
             color: var(--accent-color);
         }
         .logo-img {
@@ -91,13 +93,13 @@ function Header({ dict, lang }: { dict: any, lang: Locale }) {
             align-items: center;
             gap: 0.5rem;
         }
-        .lang-switcher a {
+        .lang-switcher :global(a) {
             font-size: 0.9rem;
             color: var(--body-muted);
             font-weight: 600;
             transition: color 0.2s;
         }
-        .lang-switcher a:hover, .lang-switcher a.active {
+        .lang-switcher :global(a:hover), .lang-switcher :global(a.active) {
             color: var(--accent-color);
             opacity: 1;
         }
