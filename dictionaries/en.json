@@ -10,104 +10,104 @@
     },
     "hero": {
         "title": "Sweet Spot Inc.",
-        "subtitle": "Future-Ready Full-Stack Web Design & \nEnterprise AI Solutions",
+        "subtitle": "AI-Powered Next-Gen Web Solutions\nFrom Design to Operation",
         "cta": {
             "book": "Book Consultation",
-            "cases": "View Cases"
+            "cases": "View Our Portfolio"
         },
-        "alt": "AI Solution"
+        "alt": "Web Solutions"
     },
     "mission": {
-        "title": "Our Mission: Empowering Business, Igniting Future",
+        "title": "Our Mission: Expanding Web Possibilities, Accelerating Growth",
         "cards": {
             "fullService": {
-                "title": "Full-Cycle Service",
-                "text": "From web design & development to AI intelligent interaction, providing complete digital transformation solutions to let businesses focus on core growth."
+                "title": "Full-Cycle Web Services",
+                "text": "From initial planning and design to post-launch maintenance, operation, and AI feature integration. We provide one-stop lifecycle support for your web presence."
             },
             "agent": {
-                "title": "AI Agent Technology",
-                "text": "Leveraging advanced AI Agent technology to build smart websites with interactive intelligence, enabling 24/7 automated digital workforce support."
+                "title": "Automated Web Interaction",
+                "text": "Deploying AI chatbots on your website to automate customer support and inquiries 24/7, significantly reducing operational costs."
             },
             "custom": {
-                "title": "Custom Solutions",
-                "text": "Specializing in SMBs, Market Research, Securities Analysis, and E-commerce. We deeply understand industry needs to provide tailored intelligent solutions."
+                "title": "Industry-Tailored Web Build",
+                "text": "Specializing in SMBs, Market Research, Data Analytics, and E-commerce. We design optimal web architectures and operational flows tailored to your industry."
             }
         },
-        "statement": "We understand that every business has unique digital needs. By integrating the latest AI technology with professional web design, we are committed to creating commercially valuable intelligent platforms, helping enterprises seize opportunities in the digital economy and achieve sustainable growth."
+        "statement": "Digitalization is more than just having a website. By integrating cutting-edge AI into web operations, we build 'functional' platforms that not only look good but also automate business processes and drive conversions."
     },
     "coreBusiness": {
         "header": {
-            "title": "Core Business Highlights",
-            "subtitle": "Web Design & Development",
-            "desc": "Utilizing the latest AI technology, responsive design, and UX optimization to build beautiful and practical enterprise digital portals, boosting brand image and accelerating digital transformation."
+            "title": "Core Services",
+            "subtitle": "Web Planning · Production · Operation",
+            "desc": "From corporate sites to large-scale web systems. We focus not only on aesthetics but also on usability, stability, and legitimate business results through effective operation."
         },
         "services": [
             {
                 "num": "1",
-                "title": "Web AI Agent Delivery",
-                "desc": "Integrating intelligent customer service and business assistants to automate interactions, Q&A, and inquiries, significantly improving efficiency and satisfaction."
+                "title": "AI-Enhanced Website Production",
+                "desc": "Integrating intelligent conversational modules into websites. Automating appointments, Q&A, and guidance to upgrade your site with 24/7 service capabilities."
             },
             {
                 "num": "2",
-                "title": "Server & Domain Hosting",
-                "desc": "Stable and secure infrastructure assurance. Professional ops team creates 24/7 monitoring to ensure high-efficiency website operation and zero downtime."
+                "title": "Server Management & DevOps",
+                "desc": "Providing essential hosting and domain management. Including daily monitoring, security updates, and troubleshooting, so you don't have to worry about technical maintenance."
             },
             {
                 "num": "3",
-                "title": "Enterprise AI Compute & Models",
-                "desc": "Relying on leading compute platforms and mature AI models to support complex intelligent scenarios, including NLP, image recognition, and predictive analytics."
+                "title": "Advanced Web System Development",
+                "desc": "Developing web applications with backend AI models and complex logic. Digitizing intricate business processes to be handled efficiently directly via the browser."
             },
             {
                 "num": "4",
-                "title": "Industry Data Sourcing",
-                "desc": "Data-driven decision making. Providing authoritative industry data and real-time market info to enable deep insights and precise forecasting for market research and securities analysis."
+                "title": "Web Data Analytics Platforms",
+                "desc": "Building visual dashboard websites by integrating site traffic and industry data. Empowering agile, data-driven operational decisions for your enterprise."
             }
         ]
     },
     "industries": {
-        "title": "Industry Focus: Intelligent Upgrades for 4 Key Sectors",
-        "intro": "Deeply rooted in four core industries, we use professional technology and insights to provide the best-fit intelligent solutions, driving the digital process.",
+        "title": "Industry Web Solutions",
+        "intro": "Providing best practice solutions from site construction to long-term operation, tailored for four core sectors.",
         "items": [
             {
                 "title": "SMBs",
-                "desc": "Low-threshold, high-efficiency DX solutions. Quickly build professional websites and smart CS systems to boost competitiveness and retention while lowering costs.",
+                "desc": "Cost-effective corporate website construction. Providing easy-to-use CMS and long-term technical support to solve the IT resource shortage for SMBs.",
                 "img": "/images/xwM2RtQhvwfz6PVB1xEpc.png"
             },
             {
                 "title": "Market Research",
-                "desc": "Combining AI data analysis and smart interaction to automate survey collection and processing. Rapidly gain insights into trends, consumer behavior, and competition.",
+                "desc": "Building survey systems with online distribution and auto-aggregation. Full-stack web development from survey UI design to backend data management.",
                 "img": "/images/TyGce0yDbN73lPyugYi4b.png"
             },
             {
-                "title": "Securities Analysis",
-                "desc": "Using big data and AI prediction models to analyze market trends and financial data in real-time, providing precise investment advice and risk assessment.",
+                "title": "Data Analytics",
+                "desc": "Data visualization portal development. Building internal data management backends or client-facing reporting platforms to deliver data value online.",
                 "img": "/images/Wm3E-LcMos9ID42OtS9Um.png"
             },
             {
                 "title": "E-commerce",
-                "desc": "Smart CS and personalized recommendation engines improve user shopping experience and conversion rates. Automated order processing and after-sales support drive sales growth.",
+                "desc": "Full-featured B2C/B2B e-commerce sites. Integrating smart search/recommendations, customizing order management systems, and operating promotional landing pages.",
                 "img": "/images/w-pejZdrEKs1VSjnDYhCg.png"
             }
         ]
     },
     "techAdvantages": {
-        "title": "Technical Advantages & Innovation",
+        "title": "Technical Strengths in Web & Ops",
         "items": [
             {
-                "title": "AI Agent Interaction",
-                "desc": "Adopting the latest AI Agent technology to enable intelligent website interaction. Automatically understands user intent and provides precise responses, 24/7."
+                "title": "Next-Gen Web Interaction",
+                "desc": "Implementing AI-driven conversational interfaces to break traditional click patterns, offering a more intuitive and smart user experience that boosts retention."
             },
             {
-                "title": "Enterprise Compute Support",
-                "desc": "Powerful compute platforms ensure efficient and stable AI model operation, meeting complex business needs and supporting high concurrency and large-scale data processing."
+                "title": "Robust Infrastructure",
+                "desc": "Building elastic and scalable server architectures to ensure your website remains stable and fast even under high traffic, guaranteeing business continuity."
             },
             {
-                "title": "One-Stop Service Integration",
-                "desc": "Handling everything from design/dev to AI deployment and hosting. Reduces coordination costs, shortens project timelines, and improves delivery efficiency."
+                "title": "One-Stop Managed Service",
+                "desc": "Covering everything from coding to server config and content updates. We act as your external 'Web Technology Department' providing full-spectrum support."
             },
             {
-                "title": "Data Security Assurance",
-                "desc": "Strict adherence to international standards for data security and privacy. Multi-layer encryption and access control ensure the safety of customer info and trade secrets."
+                "title": "Web Security & Compliance",
+                "desc": "Deploying strict international security standards including SSL, WAF, and encrypted storage to protect your website data."
             }
         ],
         "whyUs": {
@@ -144,10 +144,16 @@
         "tagline": "Sweet Spot Inc. — Your Trusted AI Intelligent Partner"
     },
     "footer": {
-        "title": "Contact Us",
-        "emailLabel": "Email",
-        "addressLabel": "Address",
-        "addressLine1": "Fukushima 5-6-16, Fukushima-ku, Osaka",
-        "addressLine2": "Lugza Osaka 2F"
+        "slogan": "We look forward to walking this path with you.",
+        "navTitle": "Navigation",
+        "nav": {
+            "business": "Core Services",
+            "industries": "Industries",
+            "advantages": "Advantages"
+        },
+        "contactTitle": "Contact Us",
+        "phone": "+81 90 9649-3522",
+        "address": "Osaka, Japan",
+        "copyright": "© 2025 Sweet Spot Co., LTD. All Rights Reserved."
     }
 }
