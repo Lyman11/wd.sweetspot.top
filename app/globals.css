@@ -1,4 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Montserrat:wght@400;500;600;700&display=swap');
+/* 解决 FOUC (Flash of Unstyled Content) - 初始隐藏内容,等待 CSS-in-JS 加载完成 */
+.site-wrapper {
+  opacity: 0;
+  animation: fadeInPage 0.3s ease-out 0.1s forwards;
+}
+
+@keyframes fadeInPage {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* 对于禁用动画的用户,直接显示 */
+@media (prefers-reduced-motion: reduce) {
+  .site-wrapper {
+    opacity: 1;
+    animation: none;
+  }
+}
 
 :root {
   /* Core Colors from Reference */
@@ -19,9 +41,10 @@
   --card-solid: #fffff4;
   --card-border-color: #a6d3ff;
 
-  /* Typography */
-  --font-heading: 'Montserrat', sans-serif;
-  --font-body: 'Montserrat', sans-serif;
+  /* Typography - 中英文混合字体栈 */
+  /* 英文使用 Montserrat,中文使用 Noto Sans SC,最后回退到系统字体 */
+  --font-heading: var(--font-montserrat), var(--font-noto-sans-sc), system-ui, -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  --font-body: var(--font-montserrat), var(--font-noto-sans-sc), system-ui, -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', sans-serif;
 
   /* Layout */
   --section-padding: 2rem;
@@ -57,6 +80,8 @@ body {
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* 确保文本立即可见,不等待字体 */
+  text-rendering: optimizeSpeed;
 }
 
 h1,
