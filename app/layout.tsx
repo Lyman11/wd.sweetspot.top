@@ -1,20 +1,28 @@
 import type { Metadata } from "next";
-import { Montserrat, Noto_Sans_SC } from "next/font/google";
+import { DM_Serif_Display, Outfit, Noto_Sans_SC } from "next/font/google";
 import "./globals.css";
 
-// 配置拉丁字体 - 只加载必要权重,加快下载
-const montserrat = Montserrat({
+// 标题字体 - 优雅的衬线体，具有独特风格
+const dmSerifDisplay = DM_Serif_Display({
   subsets: ["latin"],
-  weight: ["400", "600"], // 减少到2个权重:正常和粗体
-  display: "optional", // optional: 避免字体切换闪烁
-  variable: "--font-montserrat",
+  weight: ["400"],
+  display: "optional",
+  variable: "--font-dm-serif",
 });
 
-// 配置中文字体 - 减少权重,使用 optional 避免闪烁
+// 正文字体 - 现代几何无衬线，清晰易读
+const outfit = Outfit({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600"],
+  display: "optional",
+  variable: "--font-outfit",
+});
+
+// 中文字体
 const notoSansSC = Noto_Sans_SC({
   subsets: ["latin"],
-  weight: ["400", "700"], // 只加载2个权重,减少文件大小
-  display: "optional", // optional: 字体未及时加载则使用后备字体,避免闪烁
+  weight: ["400", "700"],
+  display: "optional",
   variable: "--font-noto-sans-sc",
   preload: true,
   adjustFontFallback: true,
@@ -37,8 +45,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="zh-CN" className={`${montserrat.variable} ${notoSansSC.variable}`}>
-      <body className={montserrat.className}>{children}</body>
+    <html lang="zh-CN" className={`${dmSerifDisplay.variable} ${outfit.variable} ${notoSansSC.variable}`}>
+      <body className={outfit.className}>{children}</body>
     </html>
   );
 }
