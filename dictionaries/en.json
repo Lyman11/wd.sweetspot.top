@@ -21,12 +21,12 @@
         "title": "Our Mission: Expanding Web Possibilities, Accelerating Growth",
         "cards": {
             "fullService": {
-                "title": "Full-Cycle Web Services",
-                "text": "From initial planning and design to post-launch maintenance, operation, and AI feature integration. We provide one-stop lifecycle support for your web presence."
+                "title": "AI-Native Rapid Development",
+                "text": "Our entire R&D process is driven by advanced AI Agents. We deliver enterprise-grade, high-quality websites in record time, guaranteeing exceptional code robustness and modern aesthetics. We drastically reduce traditional manual overhead to provide you with an unbeatable cost-performance ratio."
             },
             "agent": {
-                "title": "Automated Web Interaction",
-                "text": "Deploying AI chatbots on your website to automate customer support and inquiries 24/7, significantly reducing operational costs."
+                "title": "AI Agent Workflow Automation",
+                "text": "Beyond intelligent chatbots. We deploy versatile AI Agents equipped with custom Skills to truly automate tedious business workflows, comprehensively upgrading your enterprise's operational efficiency."
             },
             "custom": {
                 "title": "Industry-Tailored Web Build",
@@ -49,18 +49,18 @@
             },
             {
                 "num": "2",
-                "title": "Server Management & DevOps",
-                "desc": "Providing essential hosting and domain management. Including daily monitoring, security updates, and troubleshooting, so you don't have to worry about technical maintenance."
-            },
-            {
-                "num": "3",
                 "title": "Advanced Web System Development",
                 "desc": "Developing web applications with backend AI models and complex logic. Digitizing intricate business processes to be handled efficiently directly via the browser."
             },
             {
-                "num": "4",
+                "num": "3",
                 "title": "Web Data Analytics Platforms",
                 "desc": "Building visual dashboard websites by integrating site traffic and industry data. Empowering agile, data-driven operational decisions for your enterprise."
+            },
+            {
+                "num": "4",
+                "title": "Custom Skill Development",
+                "desc": "Custom development of underlying skills for AI Agents. We build bespoke plugins for data scraping, deep computation, and workflow automation, empowering your LLM with real execution capabilities."
             }
         ]
     },
@@ -84,8 +84,8 @@
                 "img": "/images/Wm3E-LcMos9ID42OtS9Um.png"
             },
             {
-                "title": "E-commerce",
-                "desc": "Full-featured B2C/B2B e-commerce sites. Integrating smart search/recommendations, customizing order management systems, and operating promotional landing pages.",
+                "title": "Custom AI Agent Skill",
+                "desc": "Providing custom Skill development for all enterprises and AI platforms. We build bespoke data scraping, processing, and API gateway features to give your LLMs real-world execution capabilities.",
                 "img": "/images/w-pejZdrEKs1VSjnDYhCg.png"
             }
         ]
@@ -143,8 +143,33 @@
         },
         "tagline": "Sweet Spot Inc. — Your Trusted AI Intelligent Partner"
     },
+    "cases": {
+        "title": "Our Portfolio",
+        "intro": "Discover the intelligent web solutions we've crafted across various sectors.",
+        "viewBtn": "Visit Website",
+        "items": [
+            {
+                "title": "Prime Factorization",
+                "desc": "A prime factorization interactive website rapidly developed for children's education.",
+                "tags": ["Non-profit", "Managed Hosting & Maintenance"],
+                "url": "https://prime.sweetspot.top/"
+            },
+            {
+                "title": "AI Researcher Training",
+                "desc": "A customized AI researcher training platform for an investment club, providing AI Agent Skill development and systematic training services.",
+                "tags": ["Development", "Client Hosted"],
+                "url": "https://rs.3prism.ai/"
+            },
+            {
+                "title": "A-Share Industry Analysis",
+                "desc": "A financial data statistical analysis platform of Chinese A-share listed companies developed for an investment management firm.",
+                "tags": ["Development", "Client Hosted"],
+                "url": "https://if.3prism.ai/"
+            }
+        ]
+    },
     "footer": {
-        "slogan": "We look forward to walking this path with you.",
+        "slogan": "Empowering business evolution with AI, we look forward to walking this journey together.",
         "navTitle": "Navigation",
         "nav": {
             "business": "Core Services",

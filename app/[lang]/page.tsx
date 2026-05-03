@@ -16,11 +16,12 @@ import { MissionSection } from "@/components/sections/MissionSection";
 import { CoreBusinessSection } from "@/components/sections/CoreBusinessSection";
 import { IndustriesSection } from "@/components/sections/IndustriesSection";
 import { TechAdvantagesSection } from "@/components/sections/TechAdvantagesSection";
+import { CasesSection } from "@/components/sections/CasesSection";
 import { CTASection } from "@/components/sections/CTASection";
 
 export default async function Page({ params: { lang } }: { params: { lang: Locale } }) {
     const dictionary = await getDictionary(lang);
-    const { header, hero, mission, coreBusiness, industries, techAdvantages, cta, footer } = dictionary;
+    const { header, hero, mission, coreBusiness, industries, techAdvantages, cases, cta, footer } = dictionary;
 
     return (
       <div className="site-wrapper">
@@ -31,6 +32,7 @@ export default async function Page({ params: { lang } }: { params: { lang: Local
           <CoreBusinessSection dict={coreBusiness} />
           <IndustriesSection dict={industries} />
           <TechAdvantagesSection dict={techAdvantages} />
+          <CasesSection dict={cases} />
           <CTASection dict={cta} />
         </main>
         <Footer dict={footer} />
