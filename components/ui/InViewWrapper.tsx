@@ -6,9 +6,10 @@ interface InViewWrapperProps {
   children: ReactNode;
   id?: string;
   className?: string;
+  style?: React.CSSProperties;
 }
 
-export function InViewWrapper({ children, id, className = "" }: InViewWrapperProps) {
+export function InViewWrapper({ children, id, className = "", style }: InViewWrapperProps) {
   const ref = useRef<HTMLElement>(null);
   const [isInView, setIsInView] = useState(false);
 
@@ -34,7 +35,7 @@ export function InViewWrapper({ children, id, className = "" }: InViewWrapperPro
   }, []);
 
   return (
-    <section ref={ref} id={id} className={`${className} ${isInView ? "in-view" : ""}`}>
+    <section ref={ref} id={id} className={`${className} ${isInView ? "in-view" : ""}`} style={style}>
       {children}
     </section>
   );
